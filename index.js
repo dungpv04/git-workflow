@@ -14,6 +14,11 @@ app.post('register', (req, res) => {
   res.send('Register');
 });
 
+app.post('login', (req, res) => {
+  res.send('Login Success');
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
+
