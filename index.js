@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/hello', (req, res) => {
-  res.send('Hello World! Feature Branch');
+  res.send('Hello World!');
 });
 
 app.listen(port, () => {
