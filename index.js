@@ -10,6 +10,10 @@ app.get('/hello', (req, res) => {
   res.send('Hello World!');
 });
 
+app.post('register', (req, res) => {
+  res.send('Register');
+});
+
 app.post('login', (req, res) => {
   res.send('Login Success');
 });
