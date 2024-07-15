@@ -18,6 +18,10 @@ app.post('login', (req, res) => {
   res.send('Login Success');
 });
 
+app.patch('hello', (req, res) => {
+  res.send('Update Success');
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
